@@ -17,7 +17,7 @@ export default async function BlogPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">Cybersecurity Blog</h1>
               <p className="max-w-[700px] text-gray-400 md:text-xl/relaxed">
-                Insights, tips, and best practices to help you stay secure in an ever-evolving threat landscape.
+                I want to change this as test
               </p>
             </div>
           </div>

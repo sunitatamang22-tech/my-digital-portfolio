@@ -12,8 +12,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">About Me</h1>
               <p className="max-w-[700px] text-gray-400 md:text-xl/relaxed">
-                Cybersecurity professional with over 15 years of experience protecting organizations from evolving
-                threats.
+                I'm aspiring cybersecurity student from UNISC
               </p>
             </div>
           </div>
