@@ -36,22 +36,19 @@ export default function AboutPage() {
               </div>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  I am a dedicated cybersecurity professional with a passion for helping organizations strengthen their
-                  security posture and protect their valuable digital assets. With over 15 years of experience in the
-                  industry, I have worked with clients across various sectors, from financial services and healthcare to
-                  government and technology.
+                I’m an aspiring Cybersecurity Analyst with a deep curiosity for how things work—and how to protect them when they break. 
+                Originally from overseas and now based in Adelaide, I’m currently pursuing my Master’s in Cybersecurity at the University of the Sunshine Coast (UniSC).
                 </p>
                 <p className="text-muted-foreground">
-                  My approach combines technical expertise with a deep understanding of business needs, allowing me to
-                  develop security solutions that are both effective and practical. I believe that cybersecurity is not
-                  just about implementing technical controls, but also about building a culture of security awareness
-                  and resilience.
+                With a foundation in Computer Science and growing hands-on experience using tools like Kali Linux, VeraCrypt, and GitHub.
+                I’m diving deep into the world of penetration testing, digital forensics, and network defense.
+                 I enjoy tackling real-world security challenges and building secure digital solutions that make a difference.
                 </p>
                 <p className="text-muted-foreground">
-                  Throughout my career, I have helped organizations identify and address security vulnerabilities,
-                  implement robust security programs, and respond effectively to security incidents. I am committed to
-                  staying at the forefront of the rapidly evolving cybersecurity landscape and sharing my knowledge with
-                  clients and the broader security community.
+                Beyond the classroom, I actively participate in cybersecurity bootcamps, workshops, and student-led clubs, where I continue to expand my practical knowledge and stay updated on emerging cyber threats.
+                 I enjoy writing blog posts on topics like encryption and secure practices, and exploring real-world tools to strengthen digital defenses.
+
+
                 </p>
               </div>
             </div>
