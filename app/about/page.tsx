@@ -55,14 +55,7 @@ export default function AboutPage() {
               <div className="relative w-full max-w-[400px] aspect-square">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-3xl opacity-20"></div>
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
-                  <Image
-                 
-                    src="/images/sunita.jpg" 
-                    alt="Sunita Tamang - Cybersecurity student" 
-                    width={256} 
-                    height={256} 
-                    className="rounded-full w-64 h-64 object-cover" 
-                  />
+                <img src="/unisc/profile.jpg" alt="Profile" />
 
                 </div>
               </div>
