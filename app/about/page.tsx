@@ -58,7 +58,7 @@ export default function AboutPage() {
                   <Image
                     src="https://vfhg4hdvndnfzcow.public.blob.vercel-storage.com/profile-IIIHUODRpgbvrHH2PyTYT8YazUvF5c.JPG"
                     alt="Profile"
-                    width={300}
+                    width={400}
                     height={400}
                     className="object-cover w-[300px] h-[400px] rounded-xl"
                   />
