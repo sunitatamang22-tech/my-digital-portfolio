@@ -12,7 +12,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">About Me</h1>
               <p className="max-w-[700px] text-gray-400 md:text-xl/relaxed">
-                I'm aspiring cybersecurity student from UNISC
+                I&apos;m aspiring cybersecurity student from UNISC
               </p>
             </div>
           </div>
@@ -55,7 +55,13 @@ export default function AboutPage() {
               <div className="relative w-full max-w-[400px] aspect-square">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-3xl opacity-20"></div>
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
-                <img src="https://vfhg4hdvndnfzcow.public.blob.vercel-storage.com/profile-IIIHUODRpgbvrHH2PyTYT8YazUvF5c.JPG" alt="Profile" style="width:300px; height:400px">
+                  <Image
+                    src="https://vfhg4hdvndnfzcow.public.blob.vercel-storage.com/profile-IIIHUODRpgbvrHH2PyTYT8YazUvF5c.JPG"
+                    alt="Profile"
+                    width={300}
+                    height={400}
+                    className="object-cover w-[300px] h-[400px] rounded-xl"
+                  />
 
                 </div>
               </div>
