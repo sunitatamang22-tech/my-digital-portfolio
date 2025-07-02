@@ -35,7 +35,8 @@ export default function AboutPage() {
               </div>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  hello th
+                  hello this is changed 
+                  hello this is test
                 I’m an aspiring Cybersecurity Analyst with a deep curiosity for how things work—and how to protect them when they break. 
                 Originally from overseas and now based in Adelaide, I’m currently pursuing my Master’s in Cybersecurity at the University of the Sunshine Coast (UniSC).
                 </p>
