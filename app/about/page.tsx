@@ -47,7 +47,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex items-center justify-center">
-              <div className="relative w-full max-w-[400px] aspect-square">
+              <div className="relative w-full max-w-[400px] h-[400px]">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-3xl opacity-20"></div>
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
                   <Image
@@ -55,7 +55,7 @@ export default function AboutPage() {
                     alt="Profile"
                     width={400}
                     height={400}
-                    className="object-cover w-[300px] h-[400px] rounded-xl"
+                    className="object-cover w-full h-full rounded-xl"
                   />
 
                 </div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
             <Card className="bg-background border-primary/20">
               <CardHeader className="pb-2">
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
-                  <Award className="h-6 w-6 text-primary" />
+                   <GraduationCap className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle>Master of Cybersecurity and Digital Forensics</CardTitle>
                 <CardDescription>University of the Sunshine Coast – Ongoing</CardDescription>
