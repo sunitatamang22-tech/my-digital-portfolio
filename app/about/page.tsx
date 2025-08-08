@@ -30,24 +30,18 @@ export default function AboutPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Sunita Tamang</h2>
                 <p className="text-xl text-muted-foreground">
-                  <span className="text-primary font-semibold">Cybersecurity Consultant & Penetration Tester</span>
+                  <span className="text-primary font-semibold">Master’s Student in Cybersecurity & Digital Forensics</span>
                 </p>
               </div>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                 Hi kelvin this is change
-                I’m an aspiring Cybersecurity Analyst with a deep curiosity for how things work—and how to protect them when they break. 
-                Originally from overseas and now based in Adelaide, I’m currently pursuing my Master’s in Cybersecurity at the University of the Sunshine Coast (UniSC).
+                 I’m Sunita Tamang, an aspiring Cybersecurity and Digital Forensics professional currently pursuing my Master’s at the University of the Sunshine Coast (UniSC) in Adelaide. With over three years of experience as a Software Quality Assurance Engineer, I have developed strong analytical and problem-solving skills that now fuel my passion for cybersecurity.
                 </p>
                 <p className="text-muted-foreground">
-                With a foundation in Computer Science and growing hands-on experience using tools like Kali Linux, VeraCrypt, and GitHub.
-                I’m diving deep into the world of penetration testing, digital forensics, and network defense.
-                 I enjoy tackling real-world security challenges and building secure digital solutions that make a difference.
+                During my recent 10-week Cybersecurity Industry Internship, I gained hands-on experience implementing Two-Factor Authentication (2FA) on websites and working with tools such as Kali Linux, VeraCrypt, and GitHub. I am particularly passionate about Digital Forensics and Incident Response (DFIR), with a growing interest in penetration testing, threat detection, and security analysis.
                 </p>
                 <p className="text-muted-foreground">
-                Beyond the classroom, I actively participate in cybersecurity bootcamps, workshops, and student-led clubs, where I continue to expand my practical knowledge and stay updated on emerging cyber threats.
-                 I enjoy writing blog posts on topics like encryption and secure practices, and exploring real-world tools to strengthen digital defenses.
-
+                My goal is to combine my technical expertise with investigative skills to help organizations strengthen their cyber resilience and respond effectively to incidents.
 
                 </p>
               </div>
@@ -90,12 +84,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>CISSP</CardTitle>
-                <CardDescription>Certified Information Systems Security Professional</CardDescription>
+                <CardTitle>Python Certification</CardTitle>
+                <CardDescription>Certiport – February 2025</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Globally recognized certification demonstrating expertise across eight security domains.
+                  Demonstrates proficiency in Python programming and problem-solving skills.
                 </p>
               </CardContent>
             </Card>
@@ -105,12 +99,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>OSCP</CardTitle>
-                <CardDescription>Offensive Security Certified Professional</CardDescription>
+                <CardTitle>Microsoft Security, Compliance, and Identity Fundamentals</CardTitle>
+                <CardDescription>Microsoft – March 2025</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Hands-on penetration testing certification proving practical exploitation skills.
+                  Foundational knowledge of security, compliance, and identity solutions across Microsoft platforms.
                 </p>
               </CardContent>
             </Card>
@@ -120,12 +114,12 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <Award className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>CCSP</CardTitle>
-                <CardDescription>Certified Cloud Security Professional</CardDescription>
+                <CardTitle>Master of Cybersecurity and Digital Forensics</CardTitle>
+                <CardDescription>University of the Sunshine Coast – Ongoing</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Specialized certification in cloud security architecture, design, and operations.
+                  Focus on digital forensics, incident response, and advanced cybersecurity practices.
                 </p>
               </CardContent>
             </Card>
@@ -135,12 +129,13 @@ export default function AboutPage() {
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <GraduationCap className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>M.S. Cybersecurity</CardTitle>
-                <CardDescription>Stanford University</CardDescription>
+                <CardTitle>Bachelor's in Computer Science and Engineering</CardTitle>
+                <CardDescription>Maharishi Dayanand University – 2016–2020</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Advanced degree with focus on security architecture and threat intelligence.
+                  Comprehensive knowledge in computer systems, programming, and networking concepts.
+
                 </p>
               </CardContent>
             </Card>
@@ -167,20 +162,13 @@ export default function AboutPage() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Web Application Testing</span>
+                  <span>Website Security Testing (2FA, vulnerabilities)</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Network Infrastructure Testing</span>
+                  <span>Basic Kali Linux Usage</span>
                 </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Mobile Application Testing</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Social Engineering Assessments</span>
-                </li>
+                
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
                   <span>Red Team Operations</span>
@@ -193,24 +181,17 @@ export default function AboutPage() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Zero Trust Architecture</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Cloud Security Design</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Network Security Design</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
                   <span>Identity & Access Management</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Secure SDLC Implementation</span>
+                  <span>Basic Network Security Concepts</span>
                 </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-4 w-4 text-primary" />
+                  <span>Secure Development Practices</span>
+                </li>
+               
               </ul>
             </div>
 
@@ -223,19 +204,16 @@ export default function AboutPage() {
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Malware Analysis</span>
+                  <span>Digital Forensics Basics</span>
+                </li>
+                
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-4 w-4 text-primary" />
+                  <span>Basic of Autopsy</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Threat Hunting</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Incident Response Planning</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Breach Containment & Recovery</span>
+                  <span>Incident Reporting & Documentation</span>
                 </li>
               </ul>
             </div>
@@ -263,17 +241,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Principal Security Consultant</h3>
+                  <h3 className="font-bold text-lg">Cybersecurity Intern</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2018 - Present
+                    July 2025
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">CyberShield Consulting</p>
+                <p className="text-muted-foreground mb-2">Ausbiz Consulting</p>
                 <p className="text-sm text-muted-foreground">
-                  Leading complex security assessments and penetration tests for Fortune 500 clients. Developing custom
-                  security frameworks and methodologies. Mentoring junior security consultants and delivering executive
-                  briefings on critical security findings.
+                  Implemented Two-Factor Authentication (2FA) on websites, assisted in penetration testing, 
+        and gained hands-on experience with tools such as Kali Linux, VeraCrypt, and GitHub.
                 </p>
               </div>
             </div>
@@ -284,17 +261,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Senior Security Engineer</h3>
+                  <h3 className="font-bold text-lg">Quality Assurance Engineer</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2014 - 2018
+                     Apr 2023 – Nov 2025
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">SecureTech Solutions</p>
+                <p className="text-muted-foreground mb-2">Oxford Academia</p>
                 <p className="text-sm text-muted-foreground">
-                  Designed and implemented security architectures for cloud migrations. Led vulnerability management
-                  program and security operations center (SOC) initiatives. Conducted internal security assessments and
-                  developed remediation strategies.
+                  Conducted manual and automated testing, identified defects, and collaborated with developers 
+        to improve application performance and security.
                 </p>
               </div>
             </div>
@@ -305,17 +281,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Security Analyst</h3>
+                  <h3 className="font-bold text-lg">Quality Assurance Engineer</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2010 - 2014
+                    Aug 2021 – Feb 2023
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">Global Financial Services</p>
+                <p className="text-muted-foreground mb-2">Legalfit (Remote, USA)</p>
                 <p className="text-sm text-muted-foreground">
-                  Performed security monitoring and incident response for a major financial institution. Conducted
-                  vulnerability assessments and security awareness training. Assisted in developing security policies
-                  and procedures.
+                  Tested legal industry web applications for functionality, usability, and security vulnerabilities. 
+        Created and executed detailed test cases to ensure high-quality product delivery.
                 </p>
               </div>
             </div>
